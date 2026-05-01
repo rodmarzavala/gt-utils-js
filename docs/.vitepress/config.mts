@@ -7,12 +7,14 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Inicio', link: '/' },
+      { text: 'Instalación', link: '/installation' },
       { text: 'Documentación', link: '/identity' }
     ],
     sidebar: [
       {
         text: 'Módulos',
         items: [
+          { text: 'Instalación y Uso', link: '/installation' },
           { text: 'Identidad (NIT/CUI)', link: '/identity' },
           { text: 'Finanzas y Bancos', link: '/finance' },
           { text: 'Vehículos (Placas)', link: '/vehicles' },

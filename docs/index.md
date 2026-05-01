@@ -7,8 +7,8 @@ hero:
   tagline: Zero-Dependency, TypeScript-first, Edge-Ready
   actions:
     - theme: brand
-      text: Empezar a Leer
-      link: /identity
+      text: Instalación
+      link: /installation
     - theme: alt
       text: Ver en GitHub
       link: https://github.com/rodmarzavala/gt-utils-js
@@ -36,27 +36,3 @@ features:
     details: Aguinaldo, Bono 14, e indemnizaciones.
     link: /labor
 ---
-
-## Instalación
-
-Instala el paquete en tu proyecto usando tu manejador de paquetes favorito:
-
-::: code-group
-
-```bash [npm]
-npm install @rodmarzavala/gt-utils-js
-```
-
-```bash [yarn]
-yarn add @rodmarzavala/gt-utils-js
-```
-
-```bash [pnpm]
-pnpm add @rodmarzavala/gt-utils-js
-```
-
-```bash [bun]
-bun add @rodmarzavala/gt-utils-js
-```
-
-:::
