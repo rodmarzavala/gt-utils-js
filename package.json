@@ -1,5 +1,5 @@
 {
-  "name": "gt-utils-js",
+  "name": "@rodmarzavala/gt-utils-js",
   "version": "1.0.3",
   "description": "Standard utility library for Guatemala (identifications, finance, vehicles, geo). Zero dependencies. Edge ready.",
   "main": "./dist/index.js",

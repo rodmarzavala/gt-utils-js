@@ -44,19 +44,19 @@ Instala el paquete en tu proyecto usando tu manejador de paquetes favorito:
 ::: code-group
 
 ```bash [npm]
-npm install gt-utils-js
+npm install @rodmarzavala/gt-utils-js
 ```
 
 ```bash [yarn]
-yarn add gt-utils-js
+yarn add @rodmarzavala/gt-utils-js
 ```
 
 ```bash [pnpm]
-pnpm add gt-utils-js
+pnpm add @rodmarzavala/gt-utils-js
 ```
 
 ```bash [bun]
-bun add gt-utils-js
+bun add @rodmarzavala/gt-utils-js
 ```
 
 :::

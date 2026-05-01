@@ -7,11 +7,11 @@ Optimizada para entornos Edge (Cloudflare Workers, Vercel Edge), Deno, Bun y Nod
 ## Instalación
 
 ```bash
-npm install gt-utils-js
+npm install @rodmarzavala/gt-utils-js
 # o usando yarn
-yarn add gt-utils-js
+yarn add @rodmarzavala/gt-utils-js
 # o usando pnpm
-pnpm add gt-utils-js
+pnpm add @rodmarzavala/gt-utils-js
 ```
 
 ## Características Principales
