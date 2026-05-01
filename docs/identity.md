@@ -1,4 +1,4 @@
-# 💳 Módulo de Identidad
+#  Módulo de Identidad
 
 El módulo de identidad provee funciones robustas para validar los documentos de identificación y registros tributarios de Guatemala, sin requerir internet para consultar bases de datos externas.
 
@@ -10,7 +10,7 @@ import { isValidNit, isValidCui, getCuiInformation } from 'gt-utils-js';
 
 ---
 
-## 💡 Ejemplos de Uso
+##  Ejemplos de Uso
 
 ### 1. Registrar a un nuevo usuario en tu App
 Al momento en el que el usuario llena el formulario de registro, puedes validar en milisegundos que su DPI o NIT sea verdadero, incluso obteniendo información adicional para precargarle datos.

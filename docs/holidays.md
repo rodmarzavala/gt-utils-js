@@ -1,4 +1,4 @@
-# 📆 Módulo de Feriados y Calendario Legal
+#  Módulo de Feriados y Calendario Legal
 
 Este submódulo es una maravilla de la matemática y legislación local. Contiene el **Algoritmo Astronómico de Computus** para calcular fechas movibles basadas en la luna (como la Semana Santa) y aplica de forma automática la **Ley que Promueve el Turismo Interno** de Guatemala, con sus modificaciones por la Corte de Constitucionalidad.
 
@@ -10,7 +10,7 @@ import { getHolidays, isHoliday, getNextHoliday } from 'gt-utils-js';
 
 ---
 
-## 💡 Ejemplos de Uso
+##  Ejemplos de Uso
 
 ### 1. Saber tu próximo asueto
 Si estás construyendo una aplicación de RH (Recursos Humanos) o quieres mostrarle a tu usuario cuándo es su próximo día de descanso.

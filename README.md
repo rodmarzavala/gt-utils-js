@@ -1,4 +1,4 @@
-# gt-utils-js 🇬🇹
+# gt-utils-js 
 
 La biblioteca estándar definitiva, sin dependencias (Zero-Dependency) y con tipado estricto (TypeScript) para validaciones y utilidades específicas de Guatemala.
 
@@ -18,13 +18,13 @@ pnpm add gt-utils-js
 
 Esta biblioteca provee 7 submódulos especializados:
 
-- 💳 **Identidad:** Validación rigurosa de NIT y CUI/DPI (Módulo 11 oficial de SAT y RENAP). Incluye la nueva disposición SAT 2025 donde los CUI válidos operan como NIT. Retorna el departamento y código de municipio emisor.
-- 💰 **Finanzas:** Conversión de números a letras para Facturación Electrónica (FEL) y detección de bancos por número de cuenta (G&T, Banrural, BI, BAM, Promerica, etc).
-- 🚗 **Vehículos:** Analizador y validador de Placas Vehiculares (comerciales, particulares, motos, y reglas estrictas del reglamento de tránsito, como exclusiones de vocales O, I, Q, Ñ).
-- 🌍 **Geografía:** Resolución Inversa Nacional: pasa coordenadas (Lat, Lng) y te dice en qué municipio y departamento de Guatemala caen (Ray-Casting algorithm ligero).
-- 🧾 **Impuestos:** Retenciones de IVA y escalonadas de ISR (Régimen General > Q2,500) redondeadas al centavo contable exacto.
-- 📆 **Feriados y Calendario:** Algoritmo astronómico para cálculo de Semana Santa, listado de asuetos, y traslados de feriados largos de acuerdo a la Ley de Promoción de Turismo Interno (Decreto 19-2018 y CC).
-- 💼 **Laboral:** Calculadora de Liquidaciones al centavo. Determina fechas de corte y pagos proporcionales de Aguinaldo, Bono 14, Vacaciones y cálculo de indemnización por despido injustificado (regla de 14 salarios / 12 meses).
+-  **Identidad:** Validación rigurosa de NIT y CUI/DPI (Módulo 11 oficial de SAT y RENAP). Incluye la nueva disposición SAT 2025 donde los CUI válidos operan como NIT. Retorna el departamento y código de municipio emisor.
+-  **Finanzas:** Conversión de números a letras para Facturación Electrónica (FEL) y detección de bancos por número de cuenta (G&T, Banrural, BI, BAM, Promerica, etc).
+-  **Vehículos:** Analizador y validador de Placas Vehiculares (comerciales, particulares, motos, y reglas estrictas del reglamento de tránsito, como exclusiones de vocales O, I, Q, Ñ).
+-  **Geografía:** Resolución Inversa Nacional: pasa coordenadas (Lat, Lng) y te dice en qué municipio y departamento de Guatemala caen (Ray-Casting algorithm ligero).
+-  **Impuestos:** Retenciones de IVA y escalonadas de ISR (Régimen General > Q2,500) redondeadas al centavo contable exacto.
+-  **Feriados y Calendario:** Algoritmo astronómico para cálculo de Semana Santa, listado de asuetos, y traslados de feriados largos de acuerdo a la Ley de Promoción de Turismo Interno (Decreto 19-2018 y CC).
+-  **Laboral:** Calculadora de Liquidaciones al centavo. Determina fechas de corte y pagos proporcionales de Aguinaldo, Bono 14, Vacaciones y cálculo de indemnización por despido injustificado (regla de 14 salarios / 12 meses).
 
 ## Uso Rápido
 
