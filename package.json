@@ -1,0 +1,90 @@
+{
+  "name": "gt-utils-js",
+  "version": "1.0.0",
+  "description": "Standard utility library for Guatemala (identifications, finance, vehicles, geo). Zero dependencies. Edge ready.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./identity": {
+      "types": "./dist/identity/index.d.ts",
+      "import": "./dist/identity/index.js",
+      "require": "./dist/identity/index.cjs"
+    },
+    "./finance": {
+      "types": "./dist/finance/index.d.ts",
+      "import": "./dist/finance/index.js",
+      "require": "./dist/finance/index.cjs"
+    },
+    "./vehicles": {
+      "types": "./dist/vehicles/index.d.ts",
+      "import": "./dist/vehicles/index.js",
+      "require": "./dist/vehicles/index.cjs"
+    },
+    "./geo": {
+      "types": "./dist/geo/index.d.ts",
+      "import": "./dist/geo/index.js",
+      "require": "./dist/geo/index.cjs"
+    },
+    "./taxes": {
+      "types": "./dist/taxes/index.d.ts",
+      "import": "./dist/taxes/index.js",
+      "require": "./dist/taxes/index.cjs"
+    },
+    "./calendar": {
+      "types": "./dist/calendar/index.d.ts",
+      "import": "./dist/calendar/index.js",
+      "require": "./dist/calendar/index.cjs"
+    },
+    "./labor": {
+      "types": "./dist/labor/index.d.ts",
+      "import": "./dist/labor/index.js",
+      "require": "./dist/labor/index.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodmarzavala/gt-utils-js.git"
+  },
+  "homepage": "https://rodmarzavala.github.io/gt-utils-js/",
+  "bugs": {
+    "url": "https://github.com/rodmarzavala/gt-utils-js/issues"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
+  },
+  "keywords": [
+    "guatemala",
+    "nit",
+    "cui",
+    "dpi",
+    "sat",
+    "finance",
+    "geo"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "vitepress": "^1.6.4",
+    "vitest": "^4.1.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "vite": ">=6.4.2",
+      "esbuild": ">=0.25.0"
+    }
+  }
+}

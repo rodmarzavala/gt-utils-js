@@ -1,0 +1,19 @@
+import { defineConfig } from 'tsup';
+
+export default defineConfig({
+  entry: [
+    'src/index.ts',
+    'src/identity/index.ts',
+    'src/finance/index.ts',
+    'src/vehicles/index.ts',
+    'src/geo/index.ts'
+  ],
+  format: ['cjs', 'esm'],
+  dts: true,
+  splitting: false,
+  sourcemap: true,
+  clean: true,
+  target: 'es2022',
+  outDir: 'dist',
+  minify: false, // Set to true for production if desired
+});
