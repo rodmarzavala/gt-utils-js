@@ -64,10 +64,10 @@ bun add @rodmarzavala/gt-utils-js
 ## Uso Básico
 
 ```typescript
-import { isValidNIT, isValidDPI } from '@rodmarzavala/gt-utils-js';
+import { isValidNit, isValidCui } from '@rodmarzavala/gt-utils-js';
 
 // o importando desde submódulos
 import { calculateSeverance } from '@rodmarzavala/gt-utils-js/labor';
 
-console.log(isValidNIT("7780969-6")); // true
+console.log(isValidNit("123456-0")); // true
 ```

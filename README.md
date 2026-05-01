@@ -45,8 +45,8 @@ import {
 
 // 1. Identidad
 console.log(isValidNit('123456-0')); // true
-console.log(isValidCui('2548000090101')); // true
-console.log(getCuiInformation('2548000090101')); 
+console.log(isValidCui('1234567890101')); // true
+console.log(getCuiInformation('1234567890101')); 
 // { isValid: true, department: 'Guatemala', municipalityId: 1 }
 
 // 2. Impuestos y Facturación

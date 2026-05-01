@@ -27,9 +27,9 @@ bun add @rodmarzavala/gt-utils-js
 Una vez instalado, puedes importar los módulos que necesites de forma individual o desde el punto de entrada principal. El paquete provee tipado completo de TypeScript.
 
 ```typescript
-import { isValidNIT, isValidDPI } from '@rodmarzavala/gt-utils-js';
+import { isValidNit, isValidCui } from '@rodmarzavala/gt-utils-js';
 // o importando desde submódulos
-import { isValidNIT } from '@rodmarzavala/gt-utils-js/identity';
+import { isValidNit } from '@rodmarzavala/gt-utils-js/identity';
 
-console.log(isValidNIT("7780969-6")); // true
+console.log(isValidNit("123456-0")); // true
 ```

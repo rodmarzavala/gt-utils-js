@@ -18,7 +18,7 @@ Al momento en el que el usuario llena el formulario de registro, puedes validar 
 ```typescript
 import { isValidCui, getCuiInformation, isValidNit } from 'gt-utils-js';
 
-const userInputDpi = '2548000090101';
+const userInputDpi = '1234567890101';
 const userInputNit = '123456-0';
 
 if (!isValidCui(userInputDpi)) {
@@ -41,7 +41,7 @@ Nuestra librería verifica si la cadena introducida es un NIT válido y, de no s
 
 ```typescript
 // Un CUI ingresado en el campo de NIT de tu formulario de Facturación (FEL)
-const nitInput = '2548000090101'; 
+const nitInput = '1234567890101'; 
 
 if (isValidNit(nitInput)) {
   console.log("¡Éxito! El NIT es un CUI de 13 dígitos válido y ha pasado la prueba.");
@@ -59,13 +59,13 @@ Valida un Código Único de Identificación (CUI / DPI). Utiliza el algoritmo ma
 **Ejemplos:**
 ```typescript
 // DPI matemáticamente válido (Dígito verificador: 9)
-console.log(isValidCui('2548000090101')); // true
+console.log(isValidCui('1234567890101')); // true
 
 // DPI inválido por mal dígito verificador (8 en lugar de 9)
-console.log(isValidCui('2548000080101')); // false
+console.log(isValidCui('1234567880101')); // false
 
 // DPI inválido por departamento que no existe (ej. 23)
-console.log(isValidCui('2548000092301')); // false
+console.log(isValidCui('1234567892301')); // false
 ```
 
 ---
@@ -75,7 +75,7 @@ console.log(isValidCui('2548000092301')); // false
 A partir de un CUI válido, extrae información geográfica según los estándares del RENAP. 
 
 ```typescript
-const info = getCuiInformation('2548000090101');
+const info = getCuiInformation('1234567890101');
 console.log(info);
 /*
 {
