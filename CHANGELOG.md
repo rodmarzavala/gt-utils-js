@@ -5,10 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.4] - 2026-05-01
+
+### Added
+- Created a dedicated `docs/installation.md` page for better visibility of installation instructions and basic usage.
+
+### Changed
+- Consolidated GitHub Actions workflows (`ci.yml`, `deploy.yml`, `publish.yml`) into a single, parallelized `ci.yml` pipeline.
+
+### Fixed
+- Fixed NPM Provenance (OIDC) deployment issues by delegating authentication natively to `npm publish` and avoiding empty/legacy `NPM_TOKEN` collisions.
+- Resolved GitHub Pages `Environment protection rules` error preventing deployments triggered by tags.
+
 ## [1.0.3] - 2026-05-01
 
 ### Changed
+- **BREAKING**: Renamed package to scoped `@rodmarzavala/gt-utils-js`.
 - Removed emojis from documentation to improve technical formalism.
+- Configured automated NPM deployments using OpenID Connect (Trusted Publishers).
 
 ## [1.0.2] - 2026-05-01
 
