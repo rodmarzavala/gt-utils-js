@@ -52,6 +52,11 @@
     "type": "git",
     "url": "https://github.com/rodmarzavala/gt-utils-js.git"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "homepage": "https://rodmarzavala.github.io/gt-utils-js/",
   "bugs": {
     "url": "https://github.com/rodmarzavala/gt-utils-js/issues"
