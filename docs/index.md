@@ -1,0 +1,62 @@
+---
+layout: home
+
+hero:
+  name: "gt-utils-js"
+  text: "Utilidades Estándar de Guatemala"
+  tagline: Zero-Dependency, TypeScript-first, Edge-Ready
+  actions:
+    - theme: brand
+      text: Empezar a Leer
+      link: /identity
+    - theme: alt
+      text: Ver en GitHub
+      link: https://github.com/rodmarzavala/gt-utils-js
+
+features:
+  - title: Identidad
+    details: Comprueba DPI y NIT según reglas SAT.
+    link: /identity
+  - title: Finanzas y Bancos
+    details: Conversión a letras para FEL y heurísticas de cuentas.
+    link: /finance
+  - title: Vehículos
+    details: Valida placas de acuerdo al reglamento de tránsito.
+    link: /vehicles
+  - title: Geografía
+    details: Identificación de municipios por lat/lng.
+    link: /geo
+  - title: Impuestos
+    details: Retenciones escalonadas de IVA e ISR.
+    link: /taxes
+  - title: Feriados y Calendario
+    details: Feriados dinámicos (Semana Santa) y Ley de Turismo Interno.
+    link: /holidays
+  - title: Laboral
+    details: Aguinaldo, Bono 14, e indemnizaciones.
+    link: /labor
+---
+
+## Instalación
+
+Instala el paquete en tu proyecto usando tu manejador de paquetes favorito:
+
+::: code-group
+
+```bash [npm]
+npm install gt-utils-js
+```
+
+```bash [yarn]
+yarn add gt-utils-js
+```
+
+```bash [pnpm]
+pnpm add gt-utils-js
+```
+
+```bash [bun]
+bun add gt-utils-js
+```
+
+:::
