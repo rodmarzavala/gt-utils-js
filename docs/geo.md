@@ -1,6 +1,6 @@
 #  Módulo de Geografía (Geo)
 
-Este submódulo te permite hacer resolución inversa (Reverse Geocoding) localmente, ¡sin depender de APIs de Google Maps o Mapbox y de forma completamente offline! Utiliza el algoritmo matemático **Ray-Casting** para determinar si unas coordenadas caen dentro de los polígonos de Guatemala.
+Este submódulo permite realizar resolución inversa (Reverse Geocoding) de forma local y offline, sin depender de APIs de Google Maps o Mapbox. Utiliza el algoritmo de **Ray-Casting** para determinar si unas coordenadas caen dentro de los polígonos de Guatemala.
 
 ## Importación
 
@@ -62,7 +62,7 @@ Imagina que ofreces una promoción válida únicamente para residentes o visitas
 const location = findMunicipalityByLatLng(14.643445, -90.513222);
 
 if (location?.name === 'Guatemala' && location?.department === 'Guatemala') {
-  console.log('¡Promoción aplicada! Estás en la capital.');
+  console.log('Promoción aplicada. Estás en la capital.');
 }
 ```
 

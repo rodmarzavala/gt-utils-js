@@ -44,7 +44,7 @@ Nuestra librería verifica si la cadena introducida es un NIT válido y, de no s
 const nitInput = '1234567890101'; 
 
 if (isValidNit(nitInput)) {
-  console.log("¡Éxito! El NIT es un CUI de 13 dígitos válido y ha pasado la prueba.");
+  console.log("El NIT es un CUI de 13 dígitos válido.");
 }
 ```
 

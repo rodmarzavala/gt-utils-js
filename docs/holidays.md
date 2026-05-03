@@ -1,6 +1,6 @@
 #  Módulo de Feriados y Calendario Legal
 
-Este submódulo es una maravilla de la matemática y legislación local. Contiene el **Algoritmo Astronómico de Computus** para calcular fechas movibles basadas en la luna (como la Semana Santa) y aplica de forma automática la **Ley que Promueve el Turismo Interno** de Guatemala, con sus modificaciones por la Corte de Constitucionalidad.
+Este submódulo contiene el **Algoritmo de Computus** para calcular fechas móviles (como la Semana Santa) y aplica de forma automática la **Ley que Promueve el Turismo Interno** de Guatemala, con sus modificaciones por la Corte de Constitucionalidad.
 
 ## Importación
 

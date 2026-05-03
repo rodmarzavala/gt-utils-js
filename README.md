@@ -1,8 +1,8 @@
 # gt-utils-js 
 
-La biblioteca estándar definitiva, sin dependencias (Zero-Dependency) y con tipado estricto (TypeScript) para validaciones y utilidades específicas de Guatemala.
+Biblioteca estándar sin dependencias (Zero-Dependency) y con tipado estricto (TypeScript) para validaciones y utilidades específicas de Guatemala.
 
-Optimizada para entornos Edge (Cloudflare Workers, Vercel Edge), Deno, Bun y Node.js. Todo el código, nombres de variables y API se mantienen estrictamente en inglés bajo principios de Clean Code, pero la lógica responde a la legislación y cultura de Guatemala.
+Optimizada para entornos Edge (Cloudflare Workers, Vercel Edge), Deno, Bun y Node.js. El código, nombres de variables y API se mantienen en inglés bajo principios de Clean Code, pero la lógica responde a la legislación y cultura de Guatemala.
 
 ## Instalación
 
